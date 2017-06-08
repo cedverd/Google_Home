@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	margin-left: 0px;text-align: center;
+}
+body{
+	font-family: "Roboto";
+	overflow: hidden;
+}
+ul,li{
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 0px 10px;
+	margin: 10px;
+}
+.navigation{
+	float: right;
+}
+.content{
+	text-align: center;
+	position: absolute;
+	top: calc(47% - 110px);
+	width: 100%;
+}
+.country{
+	color: blue;
+	float: right;
+	margin-top: -22px;
+	width: 85%;
+}
+.search-box{
+	width: 400px;
+	margin: 20px;
+	border: 0 none;
+	outline: none;
+	padding: 12px 14px;
+	font-size: 14px;
+	box-shadow: 0 1px 1px 1px #ccc;
+	border-radius: 2px;
+	color: #8c8c8c;
+	width: 600px;
+}
+.listen{
+	position: relative;
+	text-align: center;
+	margin-top: -53px;
+	margin-right: -574px;
+}
+.search-buttons input[type="submit"] {
+padding: 10px 15px;
+background: #f8f8f8;
+border: 0 none;
+outline: none;
+box-shadow: 0 1px 1px 1px #ccc;
+margin: 0 5px;
+border-radius: 2px;
+color: #777;
+font-weight: bold;
+font-family: "Roboto";
+}
+.search-buttons{
+	margin-top: 33px;
+}
+.languages a{
+	color: #4844ba;
+}
+.languages{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.languages ul{
+	word-spacing: -32px;
+	margin-left: -20px;
+}
+.bottom-section li a{
+	padding: 0px 10px;
+	color: black;
+	float: left;
+	font-size: 15px;
+}
+.bottom-section li a:hover{
+	text-decoration: underline;
+}
+.bottom-section {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background: #f1f1f1;
+}
+.bottom-section ul{
+	line-height: -10px;
+}
+.footer2{
+	float: right;
+	margin-right: 0px;
+}
